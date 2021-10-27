@@ -1,3 +1,80 @@
 body {
     font-family: 'Inter', sans-serif;
+    display: grid;
+}
+
+.header {
+    display: flex;
+    background-color: #D0CECE;
+    justify-content: center;
+}
+
+.navbar {
+    height: 60px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    background-color: #C2BCBC;
+    display: flex;
+    width: 165px;
+    height: 60px;
+    justify-content: center;
+}
+
+.navbar__logotext{
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 14px;
+    align-self: center;
+}
+
+.navbar__logotext:hover {
+    opacity: 1;
+}
+
+.navbar__menu {
+    display: flex;
+}
+
+.navbar__item {
+    padding: 2em;
+}
+
+.navbar__link {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+}
+
+.navbar__link:hover {
+    text-decoration: underline  ;
+}
+
+#search-icon {
+    color: #969292;
+    font-size: 40px;
+    padding: 1em;
+    padding-right: 0;
+}
+
+.top-banner {
+    background-color: #E6E5E5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-banner__title {
+    color: #C2BCBC;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    max-width: 730px;
 }
