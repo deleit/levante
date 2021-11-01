@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    background-color: #D0CECE;
+    justify-content: center;
+}
+
+.navbar {
+    height: 60px;
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+}
+
+.navbar__logo {
+    grid-column: 1 / span 2;
+    background-color: #C2BCBC;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__logotext{
+    color: #FFFFFF;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 14px;
+    align-self: center;
+}
+
+.navbar__menu {
+    grid-column: 3 / span 9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar__link {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+}
+
+#search-icon {
+    grid-column: 12;
+    color: #969292;
+    font-size: 40px;
+    text-align: right;
+    align-self: center;
+}
