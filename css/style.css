@@ -145,7 +145,6 @@ body {
 
 .carousel__card4 .carousel__card__content  {
     justify-content: space-between;
-    padding: 3em 2em 4em 3em;
 }
 
 .carousel__card__text {
@@ -160,7 +159,8 @@ body {
 }
 
 .carousel__card4 .carousel__card__text {
-    margin-right: 4em;
+    margin-top: 25px;
+    margin-right: 112px;
 }
 
 .carousel__card__link {
@@ -175,8 +175,9 @@ body {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 48px 48px 48px 48px;
     row-gap: 35px;
+    margin-bottom: 63px;
 }
 
 .carousel__item__desc {
